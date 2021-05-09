@@ -26,7 +26,7 @@ const CryptoTable = inject('currenciesStore')(observer(({ classes, currenciesSto
       if (currenciesStore) {
         currenciesStore.fetchCoins();
       }
-    }, [])
+    }, []);
 
     return (
       <div>
